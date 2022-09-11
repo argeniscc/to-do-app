@@ -1,0 +1,38 @@
+.task-form {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background: #f2fdf4;
+    border: 1px solid #cbead0;
+}
+
+#task-title {
+    width: 88%;
+}
+
+.btn {
+    font-size: 11px;
+    overflow: hidden;
+    background: #eee;
+    border-radius: 0.3rem;
+    text-overflow: ellipsis;
+    border: 1px solid #ccc;
+}
+
+.btn:hover {
+    border: 2px solid #cbead0;
+}
+
+.btn.btn-add-task {
+    width: 11%;
+}
